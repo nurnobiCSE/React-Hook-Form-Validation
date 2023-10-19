@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="data"]{
+  display: block;
+  width: 400px;
+  padding: 8px 12px;
+  font-size: 16px;
+  line-height: 1.43;
+  color: #fff;
+  background-color: rgb(25, 20, 52);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+ 
+}
+button{
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
